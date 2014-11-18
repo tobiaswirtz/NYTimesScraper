@@ -12,6 +12,5 @@ for i in range(0, len(stories)):
     if "\n" in stories_string:
         stories_string.replace("\n", "")
         file.write(stories_string)
-        print(stories_string)
 
 file.close()
